@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Deploy your websites in less than 60 seconds.">
+    <meta property="og:title" content="MoonBean...">
+    <meta property="og:description" content="Deploy your websites in less than 60 seconds.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.moonbean.com">
+    <title>Mirai Mei - Business Consulting</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar collapsible">
+      <div class="logo-div">
+        <a href="index.html">MiraiMei</a>
+      </div>
+      <div class="nav-toggler"><span class="fa-solid fa-list"></span></div>
+  
+      <ul class="nav-list collapsible__content">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <section class="block--black contact contact-page">
+      <div class="contact__left">
+        <span class="badge badge--primary badge-contact">Hey You!</span>
+        <h1 class="contact__heading">Get in Touch</h1>
+        <p class="contact__text">Ready to take your business to the next level? Get in touch with us at MiraiMei today, and let’s start building the path to your success. We’re here to answer your questions and help you achieve your goals.</p>
+      </div>
+      <div class="contact__right">
+        <form class="contact-form" method="post" action="index.html">
+          
+          <div class="input-group">
+            <input type="text" class="input input--black" id="first-name" name="first-name" placeholder="First Name">
+            <input type="text" class="input input--black" id="last-name" name="last-name" placeholder="Last Name">
+          </div>
+          <input type="email" class="input input--black input--stretched" id="email" name="email" placeholder="Email">
+          <textarea name="message" id="message" rows="15" class="input input--black"></textarea>
+          <a href="index.html" class="btn btn--primary btn--stretched contact-btn">Send</a>
+        </form>
+        
+
+      </div>
+    </section>
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/93d6ecbf67.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
