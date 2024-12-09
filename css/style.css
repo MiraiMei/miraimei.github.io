@@ -845,6 +845,11 @@ span.pink{
         width: 35ch;
         margin: 0 auto;
     }
+    
+::-webkit-scrollbar {
+    width: 0;
+}
+ 
 }
 
 @media screen and (max-width:658px){
