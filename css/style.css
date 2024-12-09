@@ -1223,7 +1223,7 @@ span.pink{
         height: 200%;
     }
     .about-3rd__text{
-        width: 30ch;
+        max-width: 20ch;
     }
     .about-3rd__heading{
         width: 10ch;
